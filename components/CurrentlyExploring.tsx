@@ -24,7 +24,6 @@ export default function CurrentlyExploring() {
         </motion.div>
 
         <div className="grid md:grid-cols-3 gap-5 max-w-content">
-          {/* Building */}
           <motion.div
             initial={{ opacity: 0, y: 16 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -46,7 +45,6 @@ export default function CurrentlyExploring() {
             </TiltCard>
           </motion.div>
 
-          {/* Learning */}
           <motion.div
             initial={{ opacity: 0, y: 16 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -69,7 +67,6 @@ export default function CurrentlyExploring() {
             </TiltCard>
           </motion.div>
 
-          {/* Reading */}
           <motion.div
             initial={{ opacity: 0, y: 16 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}

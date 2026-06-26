@@ -10,7 +10,7 @@ export default function EngineeringApproach() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="approach" className="py-section bg-surfaceLight" ref={ref}>
+    <section id="approach" className="py-section" ref={ref}>
       <div className="section-container">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
